@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axel Power Company - Generator Sales, Service & Repair</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom animations for Tailwind */
+        @keyframes slideIn {
+            from {
+                transform: translateY(20px);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes bounceIn {
+            0% {
+                transform: scale(0.8);
+                opacity: 0;
+            }
+
+            50% {
+                transform: scale(1.05);
+                opacity: 1;
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .animate-slide-in {
+            animation: slideIn 0.5s ease-out forwards;
+        }
+
+        .animate-bounce-in {
+            animation: bounceIn 0.7s ease-out forwards;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100 font-sans">
+    <!-- Navigation -->
+    <nav class="bg-blue-800 text-white p-4 sticky top-0 z-10">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <img src="/images/axel.jpg" alt="Axel Power Tech Logo" class="w-10 h-10">
+                <h1 class="text-2xl font-bold">Axel Power Tech</h1>
+            </div>
+            <ul class="flex space-x-6">
+                <li><a href="#home" class="hover:text-blue-300">Home</a></li>
+                <li><a href="#services" class="hover:text-blue-300">Services</a></li>
+                <li><a href="#clients" class="hover:text-blue-300">Clients</a></li>
+                <li><a href="#contact" class="hover:text-blue-300">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-blue-900 text-white py-20 bg-cover bg-center bg-black bg-opacity-100"
+        style="background-image: url('/images/generator.jpg');">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-4 animate-fade-in">Powering Your World with Axel</h2>
+            <p class="text-lg mb-6 animate-fade-in animation-delay-200">Reliable generator sales, service, and repair
+                from a trusted team.</p>
+            <a href="#contact"
+                class="bg-blue-500 text-black px-6 py-3 rounded-full hover:bg-yellow-600 animate-fade-in animation-delay-400">Get
+                a Quote</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12">Our Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md text-center animate-slide-in">
+                    <h3 class="text-xl font-semibold mb-4">Generator Service & Maintenance</h3>
+                    <p>Comprehensive maintenance to ensure your generators operate reliably and efficiently.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center animate-slide-in animation-delay-100">
+                    <h3 class="text-xl font-semibold mb-4">Generator Installation & Commissioning</h3>
+                    <p>Expert installation and setup for seamless generator integration.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center animate-slide-in animation-delay-200">
+                    <h3 class="text-xl font-semibold mb-4">Genuine Spare Parts & Consumables</h3>
+                    <p>Supply of high-quality, genuine parts and consumables for all generator types.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center animate-slide-in animation-delay-300">
+                    <h3 class="text-xl font-semibold mb-4">Generator Sets (5kVA to 1000kVA)</h3>
+                    <p>Wide range of generator sets available for sale or lease, from 5kVA to 1000kVA.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center animate-slide-in animation-delay-400">
+                    <h3 class="text-xl font-semibold mb-4">Controls & Synchronizing Panels</h3>
+                    <p>Advanced control systems and synchronizing panels for optimal generator performance.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center animate-slide-in animation-delay-500">
+                    <h3 class="text-xl font-semibold mb-4">Power Distribution Boards</h3>
+                    <p>Reliable power distribution solutions tailored to your needs.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center animate-slide-in animation-delay-600">
+                    <h3 class="text-xl font-semibold mb-4">Manual & Automatic Transfer Switches</h3>
+                    <p>Seamless power transfer solutions for uninterrupted operation.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center animate-slide-in animation-delay-700">
+                    <h3 class="text-xl font-semibold mb-4">Batteries & Battery Chargers</h3>
+                    <p>High-quality batteries and chargers for dependable generator startups.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center animate-slide-in animation-delay-800">
+                    <h3 class="text-xl font-semibold mb-4">Power Stabilizers</h3>
+                    <p>Stabilizers to protect your equipment and ensure consistent power delivery.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center animate-slide-in animation-delay-900">
+                    <h3 class="text-xl font-semibold mb-4">Electrical Accessories</h3>
+                    <p>A variety of electrical accessories to support all your power needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Served Section -->
+    <section id="clients" class="py-16 bg-gray-200">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12">Clients Served</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                <div
+                    class="bg-white p-6 rounded-lg shadow-md text-center flex items-center justify-center h-32 hover:animate-pulse">
+                    <h3 class="text-xl font-semibold">Stabex International Uganda</h3>
+                </div>
+                <div
+                    class="bg-white p-6 rounded-lg shadow-md text-center flex items-center justify-center h-32 hover:animate-pulse">
+                    <h3 class="text-xl font-semibold">Switch-Port</h3>
+                </div>
+                <div
+                    class="bg-white p-6 rounded-lg shadow-md text-center flex items-center justify-center h-32 hover:animate-pulse">
+                    <h3 class="text-xl font-semibold">Bellazuri Ltd</h3>
+                </div>
+                <div
+                    class="bg-white p-6 rounded-lg shadow-md text-center flex items-center justify-center h-32 hover:animate-pulse">
+                    <h3 class="text-xl font-semibold">Amos Diary Ltd</h3>
+                </div>
+                <div
+                    class="bg-white p-6 rounded-lg shadow-md text-center flex items-center justify-center h-32 hover:animate-pulse">
+                    <h3 class="text-xl font-semibold">Kwetu Farm Ltd</h3>
+                </div>
+                <div
+                    class="bg-white p-6 rounded-lg shadow-md text-center flex items-center justify-center h-32 hover:animate-pulse">
+                    <h3 class="text-xl font-semibold">Ficlau Ltd</h3>
+                </div>
+                <div
+                    class="bg-white p-6 rounded-lg shadow-md text-center flex items-center justify-center h-32 hover:animate-pulse">
+                    <h3 class="text-xl font-semibold">Kowen Farm Ltd</h3>
+                </div>
+                <div
+                    class="bg-white p-6 rounded-lg shadow-md text-center flex items-center justify-center h-32 hover:animate-pulse">
+                    <h3 class="text-xl font-semibold">Sab Holdings Ltd</h3>
+                </div>
+                <div
+                    class="bg-white p-6 rounded-lg shadow-md text-center flex items-center justify-center h-32 hover:animate-pulse">
+                    <h3 class="text-xl font-semibold">Whispers of the Nile</h3>
+                </div>
+                <div
+                    class="bg-white p-6 rounded-lg shadow-md text-center flex items-center justify-center h-32 hover:animate-pulse">
+                    <h3 class="text-xl font-semibold">National Drug Authority</h3>
+                </div>
+                <div
+                    class="bg-white p-6 rounded-lg shadow-md text-center flex items-center justify-center h-32 hover:animate-pulse">
+                    <h3 class="text-xl font-semibold">Group Vivendi Africa Uganda Ltd</h3>
+                </div>
+                <div
+                    class="bg-white p-6 rounded-lg shadow-md text-center flex items-center justify-center h-32 hover:animate-pulse">
+                    <h3 class="text-xl font-semibold">Nile Agro Ltd</h3>
+                </div>
+                <div
+                    class="bg-white p-6 rounded-lg shadow-md text-center flex items-center justify-center h-32 hover:animate-pulse">
+                    <h3 class="text-xl font-semibold">Uganda Motor Sports Arena</h3>
+                </div>
+                <div
+                    class="bg-white p-6 rounded-lg shadow-md text-center flex items-center justify-center h-32 hover:animate-pulse">
+                    <h3 class="text-xl font-semibold">Levins Bar</h3>
+                </div>
+                <div
+                    class="bg-white p-6 rounded-lg shadow-md text-center flex items-center justify-center h-32 hover:animate-pulse">
+                    <h3 class="text-xl font-semibold">Alban Energies Ltd</h3>
+                </div>
+                <div
+                    class="bg-white p-6 rounded-lg shadow-md text-center flex items-center justify-center h-32 hover:animate-pulse">
+                    <h3 class="text-xl font-semibold">Guild Frank Ltd</h3>
+                </div>
+                <div
+                    class="bg-white p-6 rounded-lg shadow-md text-center flex items-center justify-center h-32 hover:animate-pulse">
+                    <h3 class="text-xl font-semibold">Mig Farm</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12">Contact Us</h2>
+            <div class="text-center mb-8">
+                <p class="text-gray-700">P.O. Box 182999, Portbell Road, Kampala, Uganda</p>
+                <p class="text-gray-700">Telephone: +256759541964</p>
+            </div>
+            <div class="max-w-lg mx-auto bg-white p-8 rounded-lg shadow-md animate-bounce-in">
+                <form action="https://formspree.io/f/mqalevve" method="POST">
+                    <div class="mb-4">
+                        <label for="name" class="block text-gray-700">Name</label>
+                        <input type="text" id="name" name="name" class="w-full p-2 border rounded"
+                            placeholder="Your Name" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block text-gray-700">Email</label>
+                        <input type="email" id="email" name="email" class="w-full p-2 border rounded"
+                            placeholder="Your Email" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="message" class="block text-gray-700">Message</label>
+                        <textarea id="message" name="message" class="w-full p-2 border rounded" rows="5"
+                            placeholder="Your Message" required></textarea>
+                    </div>
+                    <input type="hidden" name="_subject" value="New Quote Request from Axel Power Company">
+                    <input type="hidden" name="_next" value="/thank-you.html">
+                    <button type="submit"
+                        class="bg-blue-800 text-white px-6 py-3 rounded-full hover:bg-blue-900 w-full">Send
+                        Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-800 text-white py-6">
+        <div class="container mx-auto text-center">
+            <p>© 2025 Axel Power Tech. All rights reserved.</p>
+            <p class="mt-2">Contact: axelpowertech@yahoo.com | +256759541964</p>
+        </div>
+    </footer>
+</body>
+
+</html>
